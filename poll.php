@@ -49,7 +49,7 @@
                     <h2 class="title">ОПРОС</h2>
                     <p>Ответы на все вопросы для выявления наиболее подходяшего языка программирования для вас!</p>
                     <div class="poll-container">
-                        <a href="cn/cabinet.php">Cabinet</a>
+                        <a href="cabinet.php">Cabinet</a>
                     </div><!--//cta-container-->
                 </div><!--//intro-->
                 

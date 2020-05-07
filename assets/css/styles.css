@@ -1309,7 +1309,7 @@ header {
 .header-menu__list a {
   display: block;
   color: #d6d6d6;
-  padding: 7px 14px;
+  padding: 0 14px;
   height: 44px;
   font-size: 14px;
 }
@@ -1317,8 +1317,11 @@ header {
   width: 124px;
 }
 .btn-username {
-  background-color: rgba(45,45,45,0.98);
+  background: rgba(45,45,45,0.98);
   color: #999999;
+}
+.btn-session a {
+  padding: 7px 14px;
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

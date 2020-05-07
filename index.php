@@ -46,7 +46,7 @@
                           Амирджон Раджабов
                         </a>
                         <div class="dropdown-menu btn-username" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="cn/cabinet.php">Личный кабинет</a>
+                            <a class="dropdown-item" href="cabinet.php">Личный кабинет</a>
                             <a class="dropdown-item" href="logout.php">Выход</a>
                         </div>
                         </div>
