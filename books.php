@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
-    <title>Личный кабинет</title>
+    <title>Книги</title>
     <!-- Custom CSS -->
     <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
@@ -228,50 +228,24 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://khizha.dp.ua/library/Benjamin_C_Pierce_-_Types_and_Programming_Languages_%5Bru%5D.pdf" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Типы в языках программирования</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://w2.ict.nsc.ru/jspui/handle/ICT/736" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Дисциплина программирования</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://www.academia.edu/download/33812425/Brian_Kernighan_Dennis_Ritchie-The_C_Programming_Language-RU.pdf" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Язык программирования СИ</p></a>
                             </div>
                         </div>
                     </div>
@@ -280,24 +254,50 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="ftp://ftp.vfose.ru/doc/python.pdf" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Язык программирования Python</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="https://books.google.com/books?hl=ru&lr=&id=VQfRAAAAQBAJ&oi=fnd&pg=PA19&dq=%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8&ots=qsjBc7QHSe&sig=u-DZULRL6UwOmzl88lT5-2bXv84" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Функциональное программирование на языке Haskell</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/books.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://sp.cs.msu.su/info/3/trlp.pdf" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Теория и реализация языков программирования</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="http://www.ict.nsc.ru/xmlui/handle/ICT/1241" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Систематическое программирование</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="http://it.kipk.kz/files/prepod/small.pdf" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Объектно-ориентированное программирование</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="http://elib.bsut.by/bitstream/handle/123456789/741/_ai_app_prog.pdf?sequence=1&isAllowed=y" target="_blank"><img src="assets/images/books.png" alt="C++" width="220px">
+                                <p class="cn-lang_text">Программирование искусственного интеллекта в приложениях</p></a>
                             </div>
                         </div>
                     </div>

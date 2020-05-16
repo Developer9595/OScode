@@ -256,7 +256,7 @@
                             <div class="d-flex d-lg-flex d-md-block align-items-center">
                                 <div>
                                     <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-dark mb-1 font-weight-medium">1538</h2>
+                                        <h2 class="text-dark mb-1 font-weight-medium">538</h2>
                                         
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Статьи</h6>
@@ -281,34 +281,29 @@
                         </div>
                     </div>
                 </div>
-                <!-- *************************************************************** -->
-                <!-- End First Cards -->
-                <!-- *************************************************************** -->
-                <!-- *************************************************************** -->
                 <!-- Start Sales Charts Section -->
-                <!-- *************************************************************** -->
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <p class="intro">Перспективный и возможно в будущем станет очень популярным, единственное, он достаточно сложный</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <p class="cn-lang_text">Kotlin - язык программирования для разработки под Android</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <p class="cn-lang_text">Популярный язык программирования и подойдёт тем, кто хочет работать с Windows</p></a>
                             </div>
                         </div>
                     </div>
@@ -317,24 +312,24 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <p class="cn-lang_text">PHP – язык общего назначения, и преимущественно используется для программирования на стороне сервера</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <p class="cn-lang_text">Для разработки продуктов, совместимые с Mac OS или iO, учите Swift </p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <p class="cn-lang_text">Это объектно-ориентированный язык, который отвечает за создание интерактивных, динамических веб-страниц</p></a>
                             </div>
                         </div>
                     </div>
@@ -343,24 +338,24 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <p class="cn-lang_text">Это язык общего назначения, то есть используется для создания чего угодно</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <p class="cn-lang_text">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/logo.png" alt="C++">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <p class="cn-lang_text">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p></a>
                             </div>
                         </div>
                     </div>

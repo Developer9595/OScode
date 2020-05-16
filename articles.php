@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
-    <title>Личный кабинет</title>
+    <title>Статьи</title>
     <!-- Custom CSS -->
     <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
@@ -228,50 +228,24 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="https://school.infojournal.ru/jour/article/view/282" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">Использование языка программирования Free Pascal и программной библиотеки RubiRobotLib для управления роботами на платформе LEGO MINDSTORMS</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://www.e-postulat.ru/index.php/Postulat/article/viewFile/353/372" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">Разработка программы для слияния нескольких PDF документов в один на языке программирования Python</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://is.ifmo.ru/works/_2008_01_27_gurov.pdf" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">Инструментальное средство для поддержки автоматного программирования</p></a>
                             </div>
                         </div>
                     </div>
@@ -280,24 +254,50 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="https://cyberleninka.ru/article/n/osobennosti-ispolzovaniya-yazyka-programmirovaniya-python-v-podgotovke-buduschih-inzhenerov-programmistov" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">Особенности использования языка программирования python в подготовке будущих инженеров-программистов</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://lesovyyvolodymyr.vk.vntu.edu.ua/file/795e2567df3675cc391b58bcb6c68cec.pdf#page=156" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">Объектно-ориентированное программирование в рамках дисциплины «язык программирования python»</p></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <a href="http://agora.guru.ru/abrau2011/pdf/193.pdf" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">ПАРАДИГМА ПАРАЛЛЕЛЬНОГО ПРОГРАММИРОВАНИЯ: УЧИТЬ ИЛИ НЕ УЧИТЬ</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="https://kpfu.ru/staff_files/F1518685387/59255502.pdf" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">МЕТОДИЧЕСКИЕ АСПЕКТЫ ПРЕПОДАВАНИЯ ДИСЦИПЛИНЫ" ПРОГРАММИРОВАНИЕ" В ВУЗЕ</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="http://science.vvsu.ru/files/68B31808-9C1A-485A-8A8F-7FDD56F10ED9.pdf" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">ИСПОЛЬЗОВАНИЕ МЕТОДОВ ПРОГРАММНОЙ ИНЖЕНЕРИИ В ПРОЦЕССЕ ОБУЧЕНИЯ ДИСЦИПЛИНАМ ТИПА" ПРОГРАММИРОВАНИЕ"</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <a href="http://novtex.ru/prin/old_site/prin/2014_ru/pi1214_web.pdf#page=3" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
+                                <p class="cn-lang_text">Анализ современных средств прототипирования языков программирования</p></a>
                             </div>
                         </div>
                     </div>

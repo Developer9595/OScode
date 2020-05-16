@@ -3414,7 +3414,8 @@ input[type="button"].btn-block {
   flex: 1 1 auto;
   padding: 25px;
   text-align: center; }
-
+.card-body img{
+  width: 124px; }
 .card-title {
   margin-bottom: 0.75rem; }
 

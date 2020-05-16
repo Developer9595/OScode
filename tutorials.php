@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
-    <title>Личный кабинет</title>
+    <title>Видеоуроки</title>
     <!-- Custom CSS -->
     <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
@@ -215,89 +215,71 @@
                     </div>
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- End Bread crumb and right sidebar toggle -->
-            <!-- ============================================================== -->
-            <!-- ============================================================== -->
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <div class="container-fluid">
-               
-                <!-- *************************************************************** -->
                 <div class="row">
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/V58rHMUVmDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">В этом видео мы с вами изучим C++ от самых азов и до сложных задач всего лишь за час! В уроке мы изучим переменные, циклы, условные операторы, а также затронем сложные темы, к примеру: классы, объекты и многое другое.</p></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/pCJsAzWecbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">В этом видео мы изучим язык программирования Java. Мы пройдемся по всем основным концепциям в одном видео уроке и сделаем это все всего лишь за час! Мы изучим переменные, циклы, массивы, ООП и многое другое.</p></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/QBWWplFkdzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">В этом видео уроке мы с вами изучим практически все моменты в языке JavaScript. Мы изучим переменные, массивы, циклы, условные операции, создание объектов, работу с событиями и многое другое. После прохождения этого видео урока вы сможете назвать себя JavaScript программистом!</p></a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/Yh0jAI7ObmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">В этом уроке мы с вами научимся программировать на Swift 3. В этом одном уроке мы за час с вами изучим переменные, циклы, кортежи, условные операторы, ООП и многие другие вещи.</p></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/SRPktOpHknM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">Представляю вам большой видео урок, в ходе которого вы познакомитесь с полноценным созданием веб сайтов на основе языка PHP. Вы создадите несколько страниц, сделаете форму отправки на почту, поработаете с куки, а также познакомитесь с настройками сервера Apache.</p></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/fp5-XQFr_nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">В этом видео мы с вами изучим язык программирования Python за одно видео и всего лишь за час! Урок Python в одном видео уроке, в котором мы изучим все основные моменты, а также затронем сложные темы, такие как ООП.</p></a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width="460" height="315" src="https://www.youtube.com/embed/1ruPswojG6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">Начинаем новый курс по разработке андроид-приложений на языке Kotlin. В этом уроке вы узнаете, как установить среду разработки Android Studio для создания приложений на Котлине. Поступить в онлайн-университет для программистов</p></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="#"><img src="assets/images/yt-logo.png" alt="C++" width="220px">
-                                <p class="cn-lang_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, alias!</p></a>
+                                <iframe width=460" height="315" src="https://www.youtube.com/embed/pfmxPtLIW34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p class="cn-lang_text">В этом уроке мы с вами постараемся изучить язык программирования Go или же Golang. Мы изучим все основные моменты этого языка и сделаем это в одном видео уроке и всего за 30 минут!</p></a>
                             </div>
                         </div>
                     </div>
