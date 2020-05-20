@@ -2319,7 +2319,8 @@ input[type="button"].btn-block {
   position: relative; }
 
 .dropdown-toggle {
-  white-space: nowrap; }
+  white-space: nowrap;
+  padding-top: 25px; }
   .dropdown-toggle::after {
     display: inline-block;
     margin-left: 0.255em;

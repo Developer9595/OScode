@@ -1283,6 +1283,7 @@ header {
 }
 .header-menu__list-text {
   float: right;
+  padding-top: 10px;
 }
 .header-menu__list-logo {
   text-align: left;

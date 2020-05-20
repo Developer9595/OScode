@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php require "db.php"; ?>
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
@@ -26,7 +26,6 @@
 <body class="landing-page">   
     <div class="page-wrapper">
         <!-- ******Header****** -->
-        
         <header>
             <div class="header-content">
                 <div class="header-menu">
@@ -36,8 +35,7 @@
                         <li class="header-menu__list-text">
                         <div class="dropdown">
                         <a class="btn btn-secondary btn- dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <?php echo $_SESSION['logged_user']->name;?>
-                          Амирджон Раджабов
+                          <?php echo $_SESSION['logged_user']->name;?> <?php echo $_SESSION['logged_user']->surname;?>
                         </a>
                         <div class="dropdown-menu btn-username" aria-labelledby="dropdownMenuLink">
                             <a class="dropdown-item" href="cabinet.php">Личный кабинет</a>
