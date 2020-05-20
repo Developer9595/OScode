@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
@@ -129,10 +130,7 @@
                                 <span class="ml-2 d-none d-lg-inline-block"><span>Привет,</span> <span
                                         class="text-dark">Амрджон Раджабов</span>
                             </a>
-                            
                         </li>
-                        <!-- ============================================================== -->
-                        <!-- User profile and search -->
                         <!-- ============================================================== -->
                     </ul>
                 </div>
@@ -181,9 +179,23 @@
                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id='logout' href="index.php"
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
                                     class="hide-menu">Главная страница</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id='logout' href="logout.php"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id="somewhere" href="logout.php"
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
                                     class="hide-menu">Выход</span></a></li>
+                                    <script>
+                                        (function(){
+                                            var linkk = document.getElementById('somewhere');
+                                            linkk.onclick = function goSomeWhere(){
+                                                var val = confirm("Вы уверены что хотите выйти?");
+                                                if(val == true){
+                                                    window.location.href = "logout.php";
+                                                }
+                                                else{
+                                                    return false;
+                                                }
+                                            }
+                                            })();
+                                    </script>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->

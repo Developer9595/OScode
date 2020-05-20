@@ -50,6 +50,7 @@
                     <p>Ответы на все вопросы для выявления наиболее подходяшего языка программирования для вас!</p>
                     <div class="poll-container">
                         <a href="cabinet.php">Cabinet</a>
+                        
                     </div><!--//cta-container-->
                 </div><!--//intro-->
                 

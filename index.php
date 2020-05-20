@@ -21,12 +21,6 @@
     
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
 </head> 
 
 <body class="landing-page">   
@@ -71,7 +65,7 @@
                 </div><!--//intro-->
                 <div id="cards-wrapper" class="cards-wrapper row">
                     <h2 class="title-br">Популярные языки программирования</h2>
-                    <div class="item item-blue col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-blue col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
@@ -81,7 +75,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-red item-2 col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-red item-2 col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/java3.png" alt="Java">
@@ -91,7 +85,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-green col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-green col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/python.png" alt="Python">
@@ -101,7 +95,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-orange col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-orange col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/js.png" alt="JS">
@@ -111,7 +105,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-blue col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-blue col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
@@ -121,7 +115,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-pink col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-pink col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/php.png" alt="PHP">
@@ -131,7 +125,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-primary col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-primary col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
@@ -141,7 +135,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-orange col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-orange col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
@@ -151,7 +145,7 @@
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
-                    <div class="item item-purple col-md-4 col-sm-6 col-xs-6">
+                    <div class="item item-purple col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/go.png" alt="Go">
