@@ -1,0 +1,4 @@
+#AuthName "Authentication!"
+#AuthType Basic
+#AuthUserFile C:/OSPanel/domains/oscode.ru/.htpasswd
+#require valid-user

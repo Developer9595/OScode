@@ -134,7 +134,8 @@
                                     <?php echo $_SESSION['logged_user']->name;?> <?php echo $_SESSION['logged_user']->surname;?>
                                     </a>
                                     <div class="dropdown-menu btn-username" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="logout.php">Выход</a>
+                                        <a class="dropdown-item" href="index.php">Главная страница</a>
+                                        <a class="dropdown-item" id="somewhere" href="logout.php">Выход</a>
                                     </div>
                                     </div>
                                     </li>

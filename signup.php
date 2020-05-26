@@ -28,7 +28,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<form action="/signup.php" method="POST" class="login100-form validate-form">
-					
+				<h5 style="text-align: center; padding-bottom: 20px; font-size: 1rem; font-weight: 600; color: #555;">Зарегистрируйтесь  для доступа <br> к <span style="color: green;"> Личному Кабинету </span></h5>
 				<div class="wrap-input100 validate-input" data-validate = "Имя нельзья оставит пустым!">
 						<input class="input100" type="text" name="name" value="<?php echo @$data['name']; ?>" placeholder="Имя">
 						<span class="focus-input100"></span>
@@ -121,7 +121,7 @@
 					</div>
 				</form>
 				<div class="login100-pic_reg js-tilt" data-tilt>
-					<img src="images/img-01.png" alt="IMG">
+				<a href="index.php"><img src="images/img-01.png" alt="IMG"></a>
 				</div>
 			</div>
 		</div>

@@ -23,6 +23,7 @@ body {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -50px;
+  background-color: #f9f9fb;
 }
 .page-wrapper:after {
   content: "";
@@ -1312,6 +1313,7 @@ header {
   height: 44px;
   font-size: 14px;
   padding-left: 15px;
+  font-weight: bold;
 }
 .icon-holder_img {
   width: 124px;
