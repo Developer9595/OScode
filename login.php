@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php require "db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,9 +53,7 @@
 							ВОЙТИ
 						</button>
 					</div><br>
-					<?php 
-						require "db.php";
-
+					<?php
 						$data = $_POST;
 						if( isset($data['do_login'])) {
 							$errors = array();
@@ -63,6 +61,8 @@
 							if( $user ) {
 								if( password_verify($data['password'], $user->password)) {
 									$_SESSION['logged_user'] = $user;
+									header('Location: http://oscode.ru/cabinet.php');
+									echo 'test';
 									echo '<div class="login-result"> Вы авторизованы! <br> Можете перейти на <a href="cabinet.php"> ЛИЧНЫЙ КАБИНЕТ</a></div>';
 								} else {
 									$errors[] = 'Неверно введён пароль!';

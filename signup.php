@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php require "db.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,9 +73,7 @@
 							Регистрация
 						</button>
 					</div><br>
-					<?php
-						require "db.php";
-						
+					<?php 
 						$data = $_POST;
 						if( isset($data['do_signup']))
 						 {
@@ -106,13 +104,15 @@
 								$user->password = password_hash($data['password'], PASSWORD_DEFAULT);
 								$user->repassword = password_hash($data['repassword'], PASSWORD_DEFAULT);
 							R::store($user);
+							$_SESSION['logged_user'] = $user;
+							header('Location: http://oscode.ru/cabinet.php');
 							echo '<div class="reg-result">Вы успешно зарегестрированы!</div>';
 							} else {
 								echo '<div>'.array_shift($errors).'</div>';
 							}
 						}
-					?>
 
+					?>
 					<div class="text-center p-t-136">
 						<a class="txt2" href="login.php">
 							Войти
