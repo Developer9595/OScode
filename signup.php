@@ -1,4 +1,44 @@
-<?php require "db.php"; ?>
+<?php 
+	require "db.php";
+						$data = $_POST;
+						if( isset($data['do_signup']))
+						 {
+							$errors = array();
+							if( trim($data['name']) == '') {
+								$errors[] = 'Введите Имя!';
+							}
+							if( trim($data['surname']) == '') {
+								$errors[] = 'Введите Фамилия!';
+							}
+							if( trim($data['email']) == '') {
+								$errors[] = 'Введите Почту!';
+							}
+							if( $data['password'] == '') {
+								$errors[] = 'Введите Пароль!';
+							}
+							if( $data['repassword'] != $data['password']) {
+								$errors[] = 'Повторный пароль введён не верно!';
+								if( R::count('signup', "email = ?", array($data['email'])) > 0 ) {
+									$errors[] = 'Пользователь с такой почтой существует!';
+								}
+							}
+							if( empty($errors)) {
+								$user = R::dispense('signup');
+								$user->name = $data['name'];
+								$user->surname = $data['surname'];
+								$user->email  = $data['email'];
+								$user->password = password_hash($data['password'], PASSWORD_DEFAULT);
+								$user->repassword = password_hash($data['repassword'], PASSWORD_DEFAULT);
+							R::store($user);
+							$_SESSION['logged_user'] = $user;
+							header('Location: http://oscode.ru/cabinet.php');
+							echo '<div class="reg-result">Вы успешно зарегестрированы!</div>';
+							} else {
+								echo '<div>'.array_shift($errors).'</div>';
+							}
+						}
+
+					?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,46 +113,7 @@
 							Регистрация
 						</button>
 					</div><br>
-					<?php 
-						$data = $_POST;
-						if( isset($data['do_signup']))
-						 {
-							$errors = array();
-							if( trim($data['name']) == '') {
-								$errors[] = 'Введите Имя!';
-							}
-							if( trim($data['surname']) == '') {
-								$errors[] = 'Введите Фамилия!';
-							}
-							if( trim($data['email']) == '') {
-								$errors[] = 'Введите Почту!';
-							}
-							if( $data['password'] == '') {
-								$errors[] = 'Введите Пароль!';
-							}
-							if( $data['repassword'] != $data['password']) {
-								$errors[] = 'Повторный пароль введён не верно!';
-								if( R::count('signup', "email = ?", array($data['email'])) > 0 ) {
-									$errors[] = 'Пользователь с такой почтой существует!';
-								}
-							}
-							if( empty($errors)) {
-								$user = R::dispense('signup');
-								$user->name = $data['name'];
-								$user->surname = $data['surname'];
-								$user->email  = $data['email'];
-								$user->password = password_hash($data['password'], PASSWORD_DEFAULT);
-								$user->repassword = password_hash($data['repassword'], PASSWORD_DEFAULT);
-							R::store($user);
-							$_SESSION['logged_user'] = $user;
-							header('Location: http://oscode.ru/cabinet.php');
-							echo '<div class="reg-result">Вы успешно зарегестрированы!</div>';
-							} else {
-								echo '<div>'.array_shift($errors).'</div>';
-							}
-						}
-
-					?>
+					
 					<div class="text-center p-t-136">
 						<a class="txt2" href="login.php">
 							Войти

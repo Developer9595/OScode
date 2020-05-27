@@ -55,10 +55,16 @@
         <section class="cards-section text-center">
             <div class="container">
                 <div class="intro">
-                    <h2 class="title">Пройдите опрос!</h2>
-                    <p>Для определения подходяшего языка программирования для вашего изучения пройдите опрос и система покажет вам подходящый язык программирования для дальнейшего изучения</p>
-                    <div class="cta-container">
-                        <a class="btn btn-primary btn-cta" href="poll.php"><i class="fa fa-question-circle"></i> Пройти опрос</a>
+                    <div class="item item-opros col-md-12 col-sm-12 col-xs-12">
+                    <div class="item-inner">
+                            <div class="icon-holder">
+                        <h2 class="title">Пройдите опрос!</h2>
+                        <p>Для определения подходяшего языка программирования для вашего изучения пройдите опрос и система покажет вам подходящый язык программирования для дальнейшего изучения</p>
+                        <div class="cta-container">
+                            <a class="btn btn-primary btn-cta" href="poll.php"><i class="fa fa-question-circle"></i> Пройти опрос</a>
+                        </div>
+                    </div>
+                    </div>
                     </div><!--//cta-container-->
                 </div><!--//intro-->
                 <div id="cards-wrapper" class="cards-wrapper row">

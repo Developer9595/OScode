@@ -1,4 +1,27 @@
-<?php require "db.php"; ?>
+<?php
+	require "db.php";
+						$data = $_POST;
+						if( isset($data['do_login'])) {
+							$errors = array();
+							$user = R::findOne('signup', 'email = ?', array($data['email']));
+							if( $user ) {
+								if( password_verify($data['password'], $user->password)) {
+									$_SESSION['logged_user'] = $user;
+									header('Location: http://oscode.ru/cabinet.php');
+									echo 'Вы авторизованы!';
+
+								} else {
+									$errors[] = 'Неверно введён пароль!';
+								}
+								} else {
+									$errors[] = 'Неверно введён почтовый ящик!';
+							}
+							if( ! empty($errors))
+							{
+								echo '<div class="login-result">'.array_shift($errors).'</div><br>';
+							}
+						}
+					?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,29 +76,7 @@
 							ВОЙТИ
 						</button>
 					</div><br>
-					<?php
-						$data = $_POST;
-						if( isset($data['do_login'])) {
-							$errors = array();
-							$user = R::findOne('signup', 'email = ?', array($data['email']));
-							if( $user ) {
-								if( password_verify($data['password'], $user->password)) {
-									$_SESSION['logged_user'] = $user;
-									header('Location: http://oscode.ru/cabinet.php');
-									echo 'test';
-									echo '<div class="login-result"> Вы авторизованы! <br> Можете перейти на <a href="cabinet.php"> ЛИЧНЫЙ КАБИНЕТ</a></div>';
-								} else {
-									$errors[] = 'Неверно введён пароль!';
-								}
-								} else {
-									$errors[] = 'Неверно введён почтовый ящик!';
-							}
-							if( ! empty($errors))
-							{
-								echo '<div class="login-result">'.array_shift($errors).'</div><br>';
-							}
-						}
-					?>
+					
 					<div class="text-center p-t-12">
 						<span class="txt1">
 							Забыли : 

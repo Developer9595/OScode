@@ -1252,6 +1252,10 @@ select {
 .cards-section .item-purple .item-inner {
   border-top: 3px solid #8A40A7;
 }
+.cards-section .item-opros .item-inner {
+  border-top: 3px solid #889be2;
+  border-bottom: 3px solid #889be2;
+}
 .cards-section .item-purple .item-inner:hover .title {
   color: #5c2b70;
 }

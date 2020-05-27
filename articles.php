@@ -1,6 +1,11 @@
+<?php require "db.php"; 
+if ( ! isset($_SESSION['logged_user'])) {
+    header('Location: http://oscode.ru/login.php');
+}
+
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
