@@ -1,6 +1,6 @@
 <?php
     require "rb.php";
-    R::setup( 'mysql:host=localhost;dbname=v91178na_oscoderu',
-        'admin', '0123456789' );
+    R::setup( 'mysql:host=localhost;dbname=oscode',
+        'admin', 'qwertyuiop' );
 
 session_start();
