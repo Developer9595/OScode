@@ -5,7 +5,7 @@ jQuery('#world-map-markers').vectorMap(
 {
     map: 'world_mill_en',
     backgroundColor: 'transparent',
-    borderColor: '#818181',
+    borderColor: '#7c8798',
     borderOpacity: 0.25,
     borderWidth: 1,
     zoomOnScroll: false,

@@ -436,7 +436,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                                 <img class="icon-holder_img" src="/images/java3.png" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">Java</h3>
-                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p></a>
+                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
+                            <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
                         </a>
@@ -444,7 +445,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="/pages/cn/cpp.php">
+                        <a class="card-body_a" href="#">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
@@ -452,29 +453,31 @@ if ( ! isset($_SESSION['logged_user'])) {
                             </div><!--//icon-holder-->
                             <h3 class="title">C++</h3>
                             <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
+                            <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
                         </a>
                         </div>
                     </div>
+                    
                 <!-- *************************************************************** -->
             </div>
             <nav aria-label="Навигация по страницам">
                     <ul class="pagination justify-content-center">
-                        <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">«</a>
+                        <li class="page-item">
+                        <a class="page-link" href="cabinet4.php" tabindex="-1">«</a>
                         </li>
-                        <li class="page-item active"><a class="page-link" href="cabinet.php">1</a></li>
+                        <li class="page-item"><a class="page-link" href="cabinet.php">1</a></li>
                         <li class="page-item">
                         <a class="page-link" href="cabinet2.php">2</a>
                         </li>
                         <li class="page-item"><a class="page-link" href="cabinet3.php">3</a></li>
                         <li class="page-item"><a class="page-link" href="cabinet4.php">4</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet5.php">5</a></li>
+                        <li class="page-item active"><a class="page-link" href="cabinet5.php">5</a></li>
                         <li class="page-item"><a class="page-link" href="cabinet6.php">6</a></li>
                         <li class="page-item"><a class="page-link" href="cabinet7.php">7</a></li>
                         <li class="page-item">
-                        <a class="page-link" href="cabinet2.php">»</a>
+                        <a class="page-link" href="cabinet6.php">»</a>
                         </li>
                     </ul>
                 </nav>

@@ -335,7 +335,8 @@ h2, .h2 {
   font-size: 1.875rem; }
 
 h3, .h3 {
-  font-size: 1.3125rem; }
+  font-size: 18px;
+  font-weight: 600; }
 
 h4, .h4 {
   font-size: 1.125rem; }
@@ -3413,10 +3414,16 @@ input[type="button"].btn-block {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 25px;
+  padding: 35px;
   text-align: center; }
+
+.card:hover {
+  margin-top: -10px;
+  transition: 0.3s; }
+
 .card-body img{
-  width: 124px; }
+  width: 124px;
+  padding-bottom: 25px; }
 .card-title {
   margin-bottom: 0.75rem; }
 
@@ -7929,7 +7936,7 @@ sidebar navigation
          ******************/ }
     .sidebar-nav #sidebarnav .list-divider {
       height: 1px;
-      background: #818181;
+      background: #7c8798;
       display: block;
       margin: 10px 0 20px 30px;
       opacity: .1; }
@@ -8127,9 +8134,9 @@ User Profile
   #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"], #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] {
     background: #fff; }
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .list-divider, #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .list-divider {
-      background: #818181; }
+      background: #7c8798; }
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link, #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link {
-      color: #818181; }
+      color: #7c8798; }
       #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link .feather-icon,
       #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link i, #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link .feather-icon,
       #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link i {
@@ -8145,7 +8152,7 @@ User Profile
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .nav-small-cap, #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .nav-small-cap {
       color: #000; }
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav .has-arrow::after, #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav .has-arrow::after {
-      border-color: #818181; }
+      border-color: #7c8798; }
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav .user-content,
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav .user-name,
     #main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav .user-email, #main-wrapper[data-layout="horizontal"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav .user-content,
@@ -9039,8 +9046,13 @@ strong {
 .cn-lang_text {
   padding-top: 10px;
   color: #7c8798;
-
-
+}
+.card-body_a {
+  color: #7c8798;
+}
+.card-body_a:hover {
+  color: #5f6368;
+}
 
 @media (max-width: 767.98px) {
   .fc-toolbar .fc-left,

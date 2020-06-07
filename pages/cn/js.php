@@ -436,7 +436,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                                 <img class="icon-holder_img" src="/images/java3.png" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">Java</h3>
-                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p></a>
+                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
+                            <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
                         </a>
@@ -444,7 +445,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="/pages/cn/cpp.php">
+                        <a class="card-body_a" href="#">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
@@ -452,6 +453,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             </div><!--//icon-holder-->
                             <h3 class="title">C++</h3>
                             <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
+                            <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
                         </a>

@@ -1,4 +1,4 @@
-<?php require "db.php"; 
+<?php require "../../db.php"; 
 if ( ! isset($_SESSION['logged_user'])) {
     header('Location: http://oscode.ru/login.php');
 }
@@ -15,14 +15,14 @@ if ( ! isset($_SESSION['logged_user'])) {
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/logo.png">
     <title>Личный кабинет</title>
     <!-- Custom CSS -->
-    <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
-    <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link href="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <link href="../../assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="../../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../../assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
     <!-- Custom CSS -->
-    <link href="dist/css/style.css" rel="stylesheet">
+    <link href="../../dist/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -60,12 +60,12 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <!-- ============================================================== -->
                     <div class="navbar-brand">
                         <!-- Logo icon -->
-                        <a href="cabinet.php">
+                        <a href="../../cabinet.php">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
-                                <img src="assets/images/logo.png" width="128px" alt="LOGO" class="dark-logo" />
+                                <img src="../../assets/images/logo.png" width="128px" alt="LOGO" class="dark-logo" />
                                 <!-- Light Logo icon -->
-                                <img src="assets/images/logo.png" width="128px" alt="LOGO" class="light-logo" />
+                                <img src="../../assets/images/logo.png" width="128px" alt="LOGO" class="light-logo" />
                             </b>
                         </a>
                     </div>
@@ -130,7 +130,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" class="js-logout" href="javascript:void(0)" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                <img src="assets/images/dev-logo.png" alt="user" class="rounded-circle"
+                                <img src="../../assets/images/dev-logo.png" alt="user" class="rounded-circle"
                                     width="40"></a>
                                     <?php if ( isset($_SESSION['logged_user'])) : ?> 
                                     <li class="header-menu__list-text">
@@ -139,8 +139,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                                     <?php echo $_SESSION['logged_user']->name;?> <?php echo $_SESSION['logged_user']->surname;?>
                                     </a>
                                     <div class="dropdown-menu btn-username" aria-labelledby="dropdownMenuLink">
-                                        <a class="dropdown-item" href="index.php">Главная страница</a>
-                                        <a class="dropdown-item" id="somewhere" href="logout.php">Выход</a>
+                                        <a class="dropdown-item" href="../../index.php">Главная страница</a>
+                                        <a class="dropdown-item" id="somewhere" href="../../logout.php">Выход</a>
                                     </div>
                                     </div>
                                     </li>
@@ -168,15 +168,15 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="list-divider"></li>
                         <li class="nav-small-cap"><span class="hide-menu">Меню</span></li>
 
-                        <li class="sidebar-item"> <a class="sidebar-link" href="tutorials.php"
+                        <li class="sidebar-item"> <a class="sidebar-link" href="../../tutorials.php"
                                 aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span
                                     class="hide-menu">Видеоуроки
                                 </span></a>
                         </li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="articles.php"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="../../articles.php"
                                 aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span
                                     class="hide-menu">Статьи</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="books.php"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="../../books.php"
                                 aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span
                                     class="hide-menu">Книги</span></a></li>
                         
@@ -192,10 +192,10 @@ if ( ! isset($_SESSION['logged_user'])) {
                             </ul>
                         </li>
                         <li class="list-divider"></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id='logout' href="index.php"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id='logout' href="../../index.php"
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
                                     class="hide-menu">Главная страница</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id="somewhere" href="logout.php"
+                        <li class="sidebar-item"> <a class="sidebar-link sidebar-link" id="somewhere" href="../../logout.php"
                                 aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span
                                     class="hide-menu">Выход</span></a></li>
                                     <script>
@@ -204,7 +204,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                                             linkk.onclick = function goSomeWhere(){
                                                 var val = confirm("Вы уверены что хотите выйти?");
                                                 if(val == true){
-                                                    window.location.href = "logout.php";
+                                                    window.location.href = "../../logout.php";
                                                 }
                                                 else{
                                                     return false;
@@ -317,7 +317,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="../../images/go.png" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">Go</h3>
                             <p class="intro">Перспективный и возможно в будущем станет очень популярным, единственное, он достаточно сложный</p>
@@ -333,7 +333,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="../../images/kotlin.png" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Kotlin</h3>
                             <p class="intro">Язык программирования для разработки под Android</p>
@@ -349,7 +349,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="../../images/csharpfinal.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">C#</h3>
                             <p class="intro">Популярный язык программирования и подойдёт тем, кто хочет работать с Windows </p>
@@ -367,7 +367,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="../../images/php.png" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">PHP</h3>
                             <p class="intro">PHP – язык общего назначения, и преимущественно используется для программирования на стороне сервера</p>
@@ -383,7 +383,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="../../images/swift.png" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">Swift</h3>
                             <p class="intro">Для разработки продуктов, совместимые с Mac OS или iO, учите Swift </p>
@@ -399,7 +399,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="../../images/js.png" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">JavaScript</h3>
                             <p class="intro">Это объектно-ориентированный язык, который отвечает за создание интерактивных, динамических веб-страниц</p>
@@ -417,7 +417,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <img class="icon-holder_img" src="../../images/python.png" alt="Python">
                             </div><!--//icon-holder-->
                             <h3 class="title">Python</h3>
                             <p class="intro">Это язык общего назначения, то есть используется для создания чего угодно</p>
@@ -433,10 +433,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="../../images/java3.png" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">Java</h3>
-                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p></a>
+                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
+                            <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
                         </a>
@@ -444,14 +445,15 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="/pages/cn/cpp.php">
+                        <a class="card-body_a" href="#">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="../../images/c-plus-plus-logo.png" alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">C++</h3>
                             <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
+                            <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
                         </a>
@@ -464,17 +466,17 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="page-item disabled">
                         <a class="page-link" href="#" tabindex="-1">«</a>
                         </li>
-                        <li class="page-item active"><a class="page-link" href="cabinet.php">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="../../cabinet.php">1</a></li>
                         <li class="page-item">
-                        <a class="page-link" href="cabinet2.php">2</a>
+                        <a class="page-link" href="../../cabinet2.php">2</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="cabinet3.php">3</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet4.php">4</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet5.php">5</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet6.php">6</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet7.php">7</a></li>
+                        <li class="page-item"><a class="page-link" href="../../cabinet3.php">3</a></li>
+                        <li class="page-item"><a class="page-link" href="../../cabinet4.php">4</a></li>
+                        <li class="page-item"><a class="page-link" href="../../cabinet5.php">5</a></li>
+                        <li class="page-item"><a class="page-link" href="../../cabinet6.php">6</a></li>
+                        <li class="page-item"><a class="page-link" href="../../cabinet7.php">7</a></li>
                         <li class="page-item">
-                        <a class="page-link" href="cabinet2.php">»</a>
+                        <a class="page-link" href="../../cabinet2.php">»</a>
                         </li>
                     </ul>
                 </nav>
@@ -504,25 +506,25 @@ if ( ! isset($_SESSION['logged_user'])) {
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- apps -->
     <!-- apps -->
-    <script src="dist/js/app-style-switcher.js"></script>
-    <script src="dist/js/feather.min.js"></script>
-    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="dist/js/sidebarmenu.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <script src="../../dist/js/feather.min.js"></script>
+    <script src="../../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="dist/js/custom.min.js"></script>
+    <script src="../../dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
-    <script src="assets/extra-libs/c3/d3.min.js"></script>
-    <script src="assets/extra-libs/c3/c3.min.js"></script>
-    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="dist/js/pages/dashboards/dashboard1.min.js"></script>
+    <script src="../../assets/extra-libs/c3/d3.min.js"></script>
+    <script src="../../assets/extra-libs/c3/c3.min.js"></script>
+    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../../assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="../../assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../../dist/js/pages/dashboards/dashboard1.min.js"></script>
 </body>
 
 </html>
