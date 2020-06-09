@@ -161,21 +161,168 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="nav-small-cap"><span class="hide-menu">Меню</span></li>
 
                         <li class="sidebar-item"> <a class="sidebar-link" href="tutorials.php"
-                                aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span
+                                aria-expanded="false"><i data-feather="youtube" class="feather-icon"></i><span
                                     class="hide-menu">Видеоуроки
                                 </span></a>
                         </li>
+                        <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> 	Java </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> 	C </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> C# </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Python </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Visual Basic .NET </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> JavaScript </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Perl </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Assembly language </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> PHP</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Delphi/Object Pascal</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Ruby </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Go </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Swift </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Visual Basic </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> R </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Dart </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Objective-C </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> MATLAB </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> PL/SQL	</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> SAS</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Scratch </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> D </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> COBOL </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Groovy </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> F# </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Fortran </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Lua </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Prolog </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Scala</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Ada</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Transact-SQL </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Lisp </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> LabVIEW </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Logo </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Scheme </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Haskell </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Q </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Apex </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Rust</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Bash</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> RPG  </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Erlang </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Ladder Logic </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> MQL4	 </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Clojure </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Awk </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Alice </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> VHDL </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> HTML</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> CSS</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="articles.php"
-                                aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span
+                                aria-expanded="false"><i data-feather="book" class="feather-icon"></i><span
                                     class="hide-menu">Статьи</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="books.php"
-                                aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span
+                                aria-expanded="false"><i data-feather="book-open" class="feather-icon"></i><span
                                     class="hide-menu">Книги</span></a></li>
                         
                             <ul aria-expanded="false" class="collapse first-level base-level-line">
-                                
-                                
-                                
                                     <ul aria-expanded="false" class="collapse second-level base-level-line">
                                         
                                     </ul>
@@ -237,7 +384,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/V58rHMUVmDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/V58rHMUVmDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">В этом видео мы с вами изучим C++ от самых азов и до сложных задач всего лишь за час! В уроке мы изучим переменные, циклы, условные операторы, а также затронем сложные темы, к примеру: классы, объекты и многое другое.</p></a>
                             </div>
                         </div>
@@ -245,7 +392,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/pCJsAzWecbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/pCJsAzWecbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">В этом видео мы изучим язык программирования Java. Мы пройдемся по всем основным концепциям в одном видео уроке и сделаем это все всего лишь за час! Мы изучим переменные, циклы, массивы, ООП и многое другое.</p></a>
                             </div>
                         </div>
@@ -253,7 +400,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/QBWWplFkdzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/QBWWplFkdzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">В этом видео уроке мы с вами изучим практически все моменты в языке JavaScript. Мы изучим переменные, массивы, циклы, условные операции, создание объектов, работу с событиями и многое другое. После прохождения этого видео урока вы сможете назвать себя JavaScript программистом!</p></a>
                             </div>
                         </div>
@@ -261,7 +408,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/Yh0jAI7ObmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/Yh0jAI7ObmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">В этом уроке мы с вами научимся программировать на Swift 3. В этом одном уроке мы за час с вами изучим переменные, циклы, кортежи, условные операторы, ООП и многие другие вещи.</p></a>
                             </div>
                         </div>
@@ -269,7 +416,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/SRPktOpHknM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/SRPktOpHknM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">Представляю вам большой видео урок, в ходе которого вы познакомитесь с полноценным созданием веб сайтов на основе языка PHP. Вы создадите несколько страниц, сделаете форму отправки на почту, поработаете с куки, а также познакомитесь с настройками сервера Apache.</p></a>
                             </div>
                         </div>
@@ -277,7 +424,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/fp5-XQFr_nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/fp5-XQFr_nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">В этом видео мы с вами изучим язык программирования Python за одно видео и всего лишь за час! Урок Python в одном видео уроке, в котором мы изучим все основные моменты, а также затронем сложные темы, такие как ООП.</p></a>
                             </div>
                         </div>
@@ -285,7 +432,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width="460" height="315" src="https://www.youtube.com/embed/1ruPswojG6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="420" height="315" src="https://www.youtube.com/embed/1ruPswojG6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">Начинаем новый курс по разработке андроид-приложений на языке Kotlin. В этом уроке вы узнаете, как установить среду разработки Android Studio для создания приложений на Котлине. Поступить в онлайн-университет для программистов</p></a>
                             </div>
                         </div>
@@ -293,7 +440,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <div class="col-lg-6 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <iframe width=460" height="315" src="https://www.youtube.com/embed/pfmxPtLIW34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width=420" height="315" src="https://www.youtube.com/embed/pfmxPtLIW34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <p class="cn-lang_text">В этом уроке мы с вами постараемся изучить язык программирования Go или же Golang. Мы изучим все основные моменты этого языка и сделаем это в одном видео уроке и всего за 30 минут!</p></a>
                             </div>
                         </div>

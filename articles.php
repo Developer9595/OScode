@@ -167,6 +167,156 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="articles.php"
                                 aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span
                                     class="hide-menu">Статьи</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> 	Java </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> 	C </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> C# </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Python </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Visual Basic .NET </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> JavaScript </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Perl </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Assembly language </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> PHP</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Delphi/Object Pascal</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Ruby </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Go </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Swift </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Visual Basic </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> R </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Dart </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Objective-C </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> MATLAB </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> PL/SQL	</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> SAS</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Scratch </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> D </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> COBOL </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Groovy </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> F# </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Fortran </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Lua </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Prolog </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Scala</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Ada</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Transact-SQL </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Lisp </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> LabVIEW </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Logo </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Scheme </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Haskell </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Q </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Apex </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Rust</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Bash</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> RPG  </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" id='box' href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Erlang </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Ladder Logic </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> MQL4	 </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Clojure </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Awk </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> Alice </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> VHDL </span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> HTML</span></a></li>
+                                    <li class="sidebar-item"> <a class="sidebar-link_tree" href="#"
+                                aria-expanded="false"><span
+                                    class="hide-menu"><i data-feather="git-commit" class="feather-icon"></i> CSS</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="books.php"
                                 aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span
                                     class="hide-menu">Книги</span></a></li>
@@ -277,7 +427,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <div class="card">
                             <div class="card-body">
                                 <a href="http://lesovyyvolodymyr.vk.vntu.edu.ua/file/795e2567df3675cc391b58bcb6c68cec.pdf#page=156" target="_blank"><img src="assets/images/article.jpg" alt="C++" width="220px">
-                                <p class="cn-lang_text">Объектно-ориентированное программирование в рамках дисциплины «язык программирования python»</p></a>
+                                <p class="cn-lang_text">Объектно-ориентированное программирование в рамках дисциплины Предыдущаяязык программирования pythonСледующая</p></a>
                             </div>
                         </div>
                     </div>

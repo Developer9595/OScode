@@ -464,7 +464,7 @@ if ( ! isset($_SESSION['logged_user'])) {
             <nav aria-label="Навигация по страницам">
                     <ul class="pagination justify-content-center">
                         <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">«</a>
+                        <a class="page-link" href="#" tabindex="-1">Предыдущая</a>
                         </li>
                         <li class="page-item active"><a class="page-link" href="../../cabinet.php">1</a></li>
                         <li class="page-item">
@@ -476,7 +476,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="page-item"><a class="page-link" href="../../cabinet6.php">6</a></li>
                         <li class="page-item"><a class="page-link" href="../../cabinet7.php">7</a></li>
                         <li class="page-item">
-                        <a class="page-link" href="../../cabinet2.php">»</a>
+                        <a class="page-link" href="../../cabinet2.php">Следующая</a>
                         </li>
                     </ul>
                 </nav>

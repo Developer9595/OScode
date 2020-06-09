@@ -319,8 +319,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/go.png" alt="Go">
                             </div><!--//icon-holder-->
-                            <h3 class="title">Go</h3>
-                            <p class="intro">Перспективный и возможно в будущем станет очень популярным, единственное, он достаточно сложный</p>
+                            <h3 class="title">Transact-SQL</h3>
+                            <p class="intro">Transact-SQL — процедурное расширение языка SQL, созданное компанией Microsoft и Sybase</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -335,8 +335,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
                             </div><!--//icon-holder-->
-                            <h3 class="title">Kotlin</h3>
-                            <p class="intro">Язык программирования для разработки под Android</p>
+                            <h3 class="title">Logo</h3>
+                            <p class="intro">Logo — язык программирования высокого уровня, разработанный в 1967 году Уолли Фёрзегом</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -351,8 +351,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
                             </div><!--//icon-holder-->
-                            <h3 class="title">C#</h3>
-                            <p class="intro">Популярный язык программирования и подойдёт тем, кто хочет работать с Windows </p>
+                            <h3 class="title">COBOL</h3>
+                            <p class="intro">COBOL — один из старейших языков программирования, предназначенный, в первую очередь, для разработки бизнес-приложений </p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -369,8 +369,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/php.png" alt="PHP">
                             </div><!--//icon-holder-->
-                            <h3 class="title">PHP</h3>
-                            <p class="intro">PHP – язык общего назначения, и преимущественно используется для программирования на стороне сервера</p>
+                            <h3 class="title">Kotlin</h3>
+                            <p class="intro">Kotlin — статически типизированный, объектно-ориентированный язык программирования</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -385,8 +385,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
                             </div><!--//icon-holder-->
-                            <h3 class="title">Swift</h3>
-                            <p class="intro">Для разработки продуктов, совместимые с Mac OS или iO, учите Swift </p>
+                            <h3 class="title">Groovy</h3>
+                            <p class="intro">Groovy — объектно-ориентированный язык программирования, разработанный для платформы Java</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -401,8 +401,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/js.png" alt="JS">
                             </div><!--//icon-holder-->
-                            <h3 class="title">JavaScript</h3>
-                            <p class="intro">Это объектно-ориентированный язык, который отвечает за создание интерактивных, динамических веб-страниц</p>
+                            <h3 class="title">Scala</h3>
+                            <p class="intro">Scala — мультипарадигмальный язык программирования, спроектированный кратким и типобезопасным</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -419,8 +419,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/python.png" alt="Python">
                             </div><!--//icon-holder-->
-                            <h3 class="title">Python</h3>
-                            <p class="intro">Это язык общего назначения, то есть используется для создания чего угодно</p>
+                            <h3 class="title">Julia</h3>
+                            <p class="intro">Julia — высокоуровневый высокопроизводительный свободный язык программирования с динамической типизацией</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -435,8 +435,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/java3.png" alt="Java">
                             </div><!--//icon-holder-->
-                            <h3 class="title">Java</h3>
-                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
+                            <h3 class="title">ABAP</h3>
+                            <p class="intro">ABAP/4 — проприетарный внутренний язык программирования высокого уровня немецкой софтверной компании SAP</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -451,8 +451,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                             <div class="icon-holder">
                                 <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
                             </div><!--//icon-holder-->
-                            <h3 class="title">C++</h3>
-                            <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
+                            <h3 class="title">PowerShell</h3>
+                            <p class="intro">PowerShell — расширяемое средство автоматизации от Microsoft с открытым исходным кодом</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
                             </div>
@@ -465,7 +465,7 @@ if ( ! isset($_SESSION['logged_user'])) {
             <nav aria-label="Навигация по страницам">
                     <ul class="pagination justify-content-center">
                         <li class="page-item">
-                        <a class="page-link" href="cabinet3.php" tabindex="-1">«</a>
+                        <a class="page-link" href="cabinet3.php" tabindex="-1">Предыдущая</a>
                         </li>
                         <li class="page-item"><a class="page-link" href="cabinet.php">1</a></li>
                         <li class="page-item">
@@ -475,9 +475,8 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="page-item active"><a class="page-link" href="cabinet4.php">4</a></li>
                         <li class="page-item"><a class="page-link" href="cabinet5.php">5</a></li>
                         <li class="page-item"><a class="page-link" href="cabinet6.php">6</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet7.php">7</a></li>
                         <li class="page-item">
-                        <a class="page-link" href="cabinet5.php">»</a>
+                        <a class="page-link" href="cabinet5.php">Следующая</a>
                         </li>
                     </ul>
                 </nav>
