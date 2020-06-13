@@ -76,7 +76,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">C++</h3>
                             <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/cpp.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-red item-2 col-md-4 col-sm-6 col-xs-12">
@@ -86,7 +86,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Java</h3>
                             <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/java.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-green col-md-4 col-sm-6 col-xs-12">
@@ -96,7 +96,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Python</h3>
                             <p class="intro">Это язык общего назначения, то есть используется для создания чего угодно</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/python.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-orange col-md-4 col-sm-6 col-xs-12">
@@ -106,7 +106,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">JavaScript</h3>
                             <p class="intro">Это объектно-ориентированный язык, который отвечает за создание интерактивных, динамических веб-страниц</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/js.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-blue col-md-4 col-sm-6 col-xs-12">
@@ -116,7 +116,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Swift</h3>
                             <p class="intro">Для разработки продуктов, совместимые с Mac OS или iO, учите Swift </p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/swift.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-pink col-md-4 col-sm-6 col-xs-12">
@@ -126,7 +126,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">PHP</h3>
                             <p class="intro">PHP – язык общего назначения, и преимущественно используется для программирования на стороне сервера</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/php.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-primary col-md-4 col-sm-6 col-xs-12">
@@ -136,7 +136,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">C#</h3>
                             <p class="intro">Популярный язык программирования и подойдёт тем, кто хочет работать с Windows </p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/csh.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-orange col-md-4 col-sm-6 col-xs-12">
@@ -146,7 +146,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Kotlin</h3>
                             <p class="intro">Язык программирования для разработки под Android</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/kotlin.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                     <div class="item item-purple col-md-4 col-sm-6 col-xs-12">
@@ -156,7 +156,7 @@
                             </div><!--//icon-holder-->
                             <h3 class="title">Go</h3>
                             <p class="intro">Перспективный и возможно в будущем станет очень популярным, единственное, он достаточно сложный</p>
-                            <a class="link" href="#"><span></span></a>
+                            <a class="link" href="http://oscode.ru/pages/main/go.php"><span></span></a>
                         </div><!--//item-inner-->
                     </div><!--//item-->
                 </div><!--//cards-->
