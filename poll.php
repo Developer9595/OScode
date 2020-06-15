@@ -46,11 +46,66 @@
         <section class="cards-section text-center">
             <div class="container">
                 <div class="intro">
-                    <h2 class="title">ОПРОС</h2>
-                    <p>Ответы на все вопросы для выявления наиболее подходяшего языка программирования для вас!</p>
+                    <h2 class="title">Какой язык программирования учить?</h2>
+                    <p>Хотите начать изучение программирования, но не знаете с чего начать? Пройдите небольшой тест, в котором вы узнаете наиболее подходящий для вас язык программирования!</p>
                     <div class="poll-container">
-                        <a href="cabinet.php">Cabinet</a>
-                        
+                        <h2 class="prog-lang_title">Для чего вы хотите изучить программирование?</h2>
+                        <div id="cards-wrapper" class="cards-wrapper row">
+                    <div class="item col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <img class="icon-holder_img" src="/images/poll/games.svg" alt="Создание игр">
+                            </div><!--//icon-holder-->
+                            <p class="intro">Создание игр</p>
+                            <a class="link" href="http://oscode.ru/pages/main/js.php"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <img class="icon-holder_img" src="/images/poll/mobile.svg" alt="Мобильные приложения">
+                            </div><!--//icon-holder-->
+                            <p class="intro">Мобильные приложения</p>
+                            <a class="link" href="http://oscode.ru/pages/main/swift.php"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <img class="icon-holder_img" src="/images/poll/web.svg" alt="Веб разработка">
+                            </div><!--//icon-holder-->
+                            <p class="intro">Веб разработка</p>
+                            <a class="link" href="http://oscode.ru/pages/main/php.php"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <img class="icon-holder_img" src="/images/poll/comp.svg" alt="Софт для компьютеров">
+                            </div><!--//icon-holder-->
+                            <p class="intro">Софт для компьютеров</p>
+                            <a class="link" href="http://oscode.ru/pages/main/csh.php"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <img class="icon-holder_img" src="/images/poll/data.svg" alt="Обработка данных">
+                            </div><!--//icon-holder-->
+                            <p class="intro">Обработка данных</p>
+                            <a class="link" href="http://oscode.ru/pages/main/kotlin.php"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                    <div class="item col-md-4 col-sm-6 col-xs-12">
+                        <div class="item-inner">
+                            <div class="icon-holder">
+                                <img class="icon-holder_img" src="/images/poll/robot.svg" alt="Создание искусственного интеллекта">
+                            </div><!--//icon-holder-->
+                            <p class="intro">Создание искусственного интеллекта</p>
+                            <a class="link" href="http://oscode.ru/pages/main/go.php"><span></span></a>
+                        </div><!--//item-inner-->
+                    </div><!--//item-->
+                </div><!--//cards-->
                     </div><!--//cta-container-->
                 </div><!--//intro-->
                 

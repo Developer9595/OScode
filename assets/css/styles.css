@@ -35,6 +35,7 @@ body {
 }
 p {
   line-height: 1.5;
+  font-size: 15px;
 }
 a {
   color: #3aa7aa;
@@ -1142,7 +1143,7 @@ select {
 }
 .cards-section .intro {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1024px;
   margin-bottom: 60px;
   color: #616670;
   padding: 50px 0 10px 0;
@@ -1167,6 +1168,12 @@ select {
 }
 .cards-section .item .intro {
   margin-bottom: 15px;
+}
+
+.prog-lang_title {
+  padding: 50px 0;
+  color: #f16a51;
+  font-weight: 600;
 }
 .cards-section .item-inner {
   padding: 45px 30px;
@@ -1193,7 +1200,7 @@ select {
   /* for IE8 */
 }
 .cards-section .item-inner:hover {
-  background: #f5f5f5;
+  background: #ececec;
 }
 .cards-section .item-primary .item-inner {
   border-top: 3px solid #40babd;
