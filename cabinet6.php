@@ -303,11 +303,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/apex.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="/images/apex.png" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">Apex</h3>
                             <p class="intro">APEX — среда Oracle Application Express для программной разработки. Apex — язык программирования, разработанный компанией Salesforce.com</p>
@@ -319,11 +319,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/h.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="/images/hk.png" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Haskell</h3>
                             <p class="intro">Haskell — стандартизированный чистый функциональный язык программирования общего назначения</p>
@@ -335,11 +335,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/s.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/scheme.svg" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">Scheme</h3>
                             <p class="intro">Scheme — это функциональный язык программирования, один из трёх наиболее популярных в наши дни диалектов языка Lisp</p>
@@ -353,11 +353,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/prolog.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="/images/prolog.png" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">Prolog</h3>
                             <p class="intro">Prolog — язык и система логического программирования, основанные на языке предикатов математической логики дизъюнктов Хорна</p>
@@ -369,11 +369,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/as.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="/images/as.png" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">ActionScript</h3>
                             <p class="intro">ActionScript — объектно-ориентированный язык программирования, один из диалектов ECMAScript</p>
@@ -385,11 +385,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/bash.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="/images/bash.png" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">Bash</h3>
                             <p class="intro">Bash — усовершенствованная и модернизированная вариация командной оболочки Bourne shell</p>

@@ -303,11 +303,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/scratch.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="/images/scratch.jpg" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">Scratch</h3>
                             <p class="intro">Скретч — визуальная событийно-ориентированная среда программирования, созданная для детей и подростков</p>
@@ -319,11 +319,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/cvb.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="/images/cvb.png" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Classic Visual Basic</h3>
                             <p class="intro">Microsoft Visual Basic — язык программирования, а также интегрированная среда разработки программного обеспечения</p>
@@ -335,11 +335,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/rust.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/rust.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">Rust</h3>
                             <p class="intro">Rust — компьютерная игра в жанре симулятора выживания </p>
@@ -353,11 +353,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/object-c.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="/images/object-c.png" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">Objective-C</h3>
                             <p class="intro">Objective-C — компилируемый объектно-ориентированный язык программирования, используемый корпорацией Apple</p>
@@ -369,11 +369,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/op.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="/images/op.png" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">Object Pascal</h3>
                             <p class="intro">Object Pascal — язык программирования, разработанный в фирме Apple Computer</p>
@@ -385,11 +385,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/d.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="/images/d.jpg" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">D</h3>
                             <p class="intro">D — мультипарадигмальный статически типизированный компилируемый язык программирования</p>
@@ -403,11 +403,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                 <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/lisp.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <img class="icon-holder_img" src="/images/lisp.png" alt="Python">
                             </div><!--//icon-holder-->
                             <h3 class="title">Lisp</h3>
                             <p class="intro">Lisp — семейство языков программирования, программы и данные в которых представляются системами линейных списков символов</p>
@@ -419,11 +419,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/dart.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="/images/dart.png" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">Dart</h3>
                             <p class="intro">Dart — язык программирования, созданный Google. Dart позиционируется в качестве замены/альтернативы JavaScript</p>
@@ -435,11 +435,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/sas.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="/images/sas.png" alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">SAS</h3>
                             <p class="intro">SAS — язык программирования от SAS Institute для анализа и обработки массивов данных</p>

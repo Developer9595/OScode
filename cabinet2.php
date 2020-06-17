@@ -303,11 +303,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/sql.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="/images/sql.jpg" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">SQL</h3>
                             <p class="intro">SQL — декларативный язык программирования, применяемый для создания</p>
@@ -319,11 +319,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/swift.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="/images/swift.png" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Swift</h3>
                             <p class="intro">Swift — открытый мультипарадигмальный компилируемый язык программирования общего назначения</p>
@@ -335,11 +335,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/go.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/go.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">Go</h3>
                             <p class="intro">Go — компилируемый многопоточный язык программирования, разработанный внутри компании Google </p>
@@ -353,11 +353,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/ruby.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="/images/ruby.jpg" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">Ruby</h3>
                             <p class="intro">Ruby — динамический, рефлективный, интерпретируемый высокоуровневый язык программирования</p>
@@ -369,11 +369,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/al.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="/images/asembly.jpg" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">Assembly language</h3>
                             <p class="intro">Язы́к ассе́мблера — машинно-ориентированный язык программирования низкого уровня</p>
@@ -385,11 +385,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/matlab.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="/images/matlab.png" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">MATLAB</h3>
                             <p class="intro">MATLAB — пакет прикладных программ для решения задач технических вычислений</p>
@@ -403,13 +403,13 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                 <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/prolog.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <img class="icon-holder_img" src="/images/prolog.png" alt="Python">
                             </div><!--//icon-holder-->
-                            <h3 class="title">Perl</h3>
+                            <h3 class="title">Prolog</h3>
                             <p class="intro">Это язык общего назначения, то есть используется для создания чего угодно</p>
                             <a class="link" href="#"><span></span></a>
                         </div><!--//item-inner-->
@@ -419,11 +419,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/perl.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="/images/perl.jpg" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">Perl</h3>
                             <p class="intro">Perl — высокоуровневый интерпретируемый динамический язык программирования общего назначения</p>
@@ -435,11 +435,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/pl.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="/images/pl.png" alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">PL/SQL</h3>
                             <p class="intro">PL/SQL — язык программирования, процедурное расширение языка SQL, разработанное корпорацией Oracle</p>

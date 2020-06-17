@@ -3411,7 +3411,13 @@ input[type="button"].btn-block {
   .card > .list-group:last-child .list-group-item:last-child {
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem; }
-
+.page-block img {
+  max-width: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
 .card-body {
   flex: 1 1 auto;
   padding: 35px;
@@ -3422,7 +3428,7 @@ input[type="button"].btn-block {
   transition: 0.3s; }
 
 .card-body img{
-  width: 124px;
+  max-width: 125px;
   padding-bottom: 25px; }
 .card-title {
   margin-bottom: 0.75rem; }

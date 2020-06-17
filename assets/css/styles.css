@@ -70,6 +70,7 @@ a.btn {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.5;
+  margin: 10px;
 }
 .btn .fa,
 a.btn .fa {
@@ -1168,12 +1169,14 @@ select {
 }
 .cards-section .item .intro {
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 .prog-lang_title {
   padding: 50px 0;
   color: #f16a51;
   font-weight: 600;
+  font-size: 28px;
 }
 .cards-section .item-inner {
   padding: 45px 30px;
@@ -1335,6 +1338,9 @@ header {
 }
 .btn-session a {
   padding: 7px 14px;
+}
+.result-pl {
+  font-size: 24px;
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */

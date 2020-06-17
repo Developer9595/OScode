@@ -303,11 +303,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/tsql.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="/images/tsql.png" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">Transact-SQL</h3>
                             <p class="intro">Transact-SQL — процедурное расширение языка SQL, созданное компанией Microsoft и Sybase</p>
@@ -319,11 +319,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/logo.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="/images/logo.jpg" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Logo</h3>
                             <p class="intro">Logo — язык программирования высокого уровня, разработанный в 1967 году Уолли Фёрзегом</p>
@@ -335,11 +335,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/cobol.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/cobol.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">COBOL</h3>
                             <p class="intro">COBOL — один из старейших языков программирования, предназначенный, в первую очередь, для разработки бизнес-приложений </p>
@@ -353,11 +353,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/kotlin.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="/images/kotlin.png" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">Kotlin</h3>
                             <p class="intro">Kotlin — статически типизированный, объектно-ориентированный язык программирования</p>
@@ -369,11 +369,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/groovy.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="/images/Groovy.svg" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">Groovy</h3>
                             <p class="intro">Groovy — объектно-ориентированный язык программирования, разработанный для платформы Java</p>
@@ -385,11 +385,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/scala.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="/images/scala.png" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">Scala</h3>
                             <p class="intro">Scala — мультипарадигмальный язык программирования, спроектированный кратким и типобезопасным</p>
@@ -403,11 +403,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                 <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/julia.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <img class="icon-holder_img" src="/images/julia.png" alt="Python">
                             </div><!--//icon-holder-->
                             <h3 class="title">Julia</h3>
                             <p class="intro">Julia — высокоуровневый высокопроизводительный свободный язык программирования с динамической типизацией</p>
@@ -419,11 +419,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/abap.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="/images/abap.jpg" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">ABAP</h3>
                             <p class="intro">ABAP/4 — проприетарный внутренний язык программирования высокого уровня немецкой софтверной компании SAP</p>
@@ -435,11 +435,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/ps.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="/images/ps.jpg/pages/cn/c.php alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">PowerShell</h3>
                             <p class="intro">PowerShell — расширяемое средство автоматизации от Microsoft с открытым исходным кодом</p>

@@ -303,11 +303,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/oe-abl.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="/images/OpenEdge.png" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">OpenEdge ABL</h3>
                             <p class="intro">OpenEdge ABL, - это язык разработки бизнес-приложений, созданный и поддерживаемый Progress Software Corporation</p>
@@ -319,11 +319,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/fortran.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="/images/fortran.jpg" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Fortran</h3>
                             <p class="intro">Fortran — первый язык программирования высокого уровня, получивший практическое применение</p>
@@ -335,11 +335,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/lua.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/lua.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">Lua</h3>
                             <p class="intro">Lua — скриптовый язык программирования, разработанный в подразделении Tecgraf</p>
@@ -353,11 +353,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/vbs.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="/images/vbs.png" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">VBScript</h3>
                             <p class="intro">VBScript — язык сценариев, созданный компанией Microsoft на основе языка Visual Basic</p>
@@ -369,11 +369,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/ada.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="/images/ada.svg" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">Ada</h3>
                             <p class="intro">Ada — язык программирования, созданный в 1979—1980 годах в ходе проекта Министерством обороны США </p>
@@ -385,11 +385,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/vfp.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="/images/Foxpro.png" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">Visual FoxPro</h3>
                             <p class="intro">Microsoft Visual FoxPro — среда разработки систем баз данных, включающая объектно-ориентированную реляционную СУБД</p>
@@ -403,11 +403,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                 <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/ml.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <img class="icon-holder_img" src="/images/ml.png" alt="Python">
                             </div><!--//icon-holder-->
                             <h3 class="title">ML</h3>
                             <p class="intro">ML — семейство строгих языков функционального программирования с развитой параметрически полиморфной системой типов и параметризуемыми модулями</p>
@@ -419,11 +419,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/lv.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="/images/lv.jpg" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">LabVIEW</h3>
                             <p class="intro">LabVIEW — это среда разработки и платформа для выполнения программ</p>
@@ -435,11 +435,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/ts.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="/images/ts.png" alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">TypeScript</h3>
                             <p class="intro">TypeScript — язык программирования, представленный Microsoft в 2012 году и позиционируемый как средство разработки веб-приложений</p>

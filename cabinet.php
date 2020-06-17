@@ -303,11 +303,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/c.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
+                                <img class="icon-holder_img" src="/images/c.png" alt="Go">
                             </div><!--//icon-holder-->
                             <h3 class="title">C</h3>
                             <p class="intro">Си — компилируемый статически типизированный язык программирования общего назначения</p>
@@ -319,11 +319,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/java.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
+                                <img class="icon-holder_img" src="/images/java.png" alt="Kotlin">
                             </div><!--//icon-holder-->
                             <h3 class="title">Java</h3>
                             <p class="intro">Java — строго типизированный объектно-ориентированный язык программирования</p>
@@ -335,11 +335,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/python.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/python.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">Python</h3>
                             <p class="intro">Python — высокоуровневый язык программирования общего назначения </p>
@@ -353,11 +353,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/cpp.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
+                                <img class="icon-holder_img" src="/images/cpp.png" alt="PHP">
                             </div><!--//icon-holder-->
                             <h3 class="title">C++</h3>
                             <p class="intro">C++ — компилируемый, статически типизированный язык программирования общего назначения</p>
@@ -369,11 +369,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/csharp.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
+                                <img class="icon-holder_img" src="/images/csharp.png" alt="Swift">
                             </div><!--//icon-holder-->
                             <h3 class="title">C#</h3>
                             <p class="intro">C# — объектно-ориентированный язык программирования</p>
@@ -385,11 +385,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/vb.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
+                                <img class="icon-holder_img" src="/images/vb.png" alt="JS">
                             </div><!--//icon-holder-->
                             <h3 class="title">Visual Basic</h3>
                             <p class="intro">Microsoft Visual Basic — язык программирования, а также интегрированная среда разработки программного обеспечения</p>
@@ -403,11 +403,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <div class="row">
                 <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/js.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
+                                <img class="icon-holder_img" src="/images/js.png" alt="Python">
                             </div><!--//icon-holder-->
                             <h3 class="title">JavaScript </h3>
                             <p class="intro">JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили</p>
@@ -419,11 +419,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="#">
+                        <a class="card-body_a" href="/pages/cn/php.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="/images/php.png" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">PHP</h3>
                             <p class="intro">PHP — скриптовый язык общего назначения, интенсивно применяемый для разработки веб-приложений</p></a>
@@ -434,11 +434,11 @@ if ( ! isset($_SESSION['logged_user'])) {
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card">
-                        <a class="card-body_a" href="/pages/cn/cpp.php">
+                        <a class="card-body_a" href="/pages/cn/r.php">
                             <div class="card-body">
                             <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="/images/r.png" alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">R</h3>
                             <p class="intro">R — язык программирования для статистической обработки данных и работы с графикой</p>

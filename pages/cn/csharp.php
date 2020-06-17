@@ -1,4 +1,4 @@
-<?php require "db.php"; 
+<?php require "../../db.php"; 
 if ( ! isset($_SESSION['logged_user'])) {
     header('Location: http://oscode.ru/login.php');
 }
@@ -18,11 +18,11 @@ if ( ! isset($_SESSION['logged_user'])) {
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
     <title>Личный кабинет</title>
     <!-- Custom CSS -->
-    <link href="assets/extra-libs/c3/c3.min.css" rel="stylesheet">
-    <link href="assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
-    <link href="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <link href="../../assets/extra-libs/c3/c3.min.css" rel="stylesheet">
+    <link href="../../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
+    <link href="../../assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
     <!-- Custom CSS -->
-    <link href="dist/css/style.css" rel="stylesheet">
+    <link href="../../dist/css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -60,12 +60,12 @@ if ( ! isset($_SESSION['logged_user'])) {
                     <!-- ============================================================== -->
                     <div class="navbar-brand">
                         <!-- Logo icon -->
-                        <a href="cabinet.php">
+                        <a href="../../cabinet.php">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
-                                <img src="assets/images/logo.png" width="128px" alt="LOGO" class="dark-logo" />
+                                <img src="../../assets/images/logo.png" width="128px" alt="LOGO" class="dark-logo" />
                                 <!-- Light Logo icon -->
-                                <img src="assets/images/logo.png" width="128px" alt="LOGO" class="light-logo" />
+                                <img src="../../assets/images/logo.png" width="128px" alt="LOGO" class="light-logo" />
                             </b>
                         </a>
                     </div>
@@ -120,7 +120,7 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" class="js-logout" href="javascript:void(0)" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
-                                <img src="assets/images/dev-logo.png" alt="user" class="rounded-circle"
+                                <img src="../../assets/images/dev-logo.png" alt="user" class="rounded-circle"
                                     width="40"></a>
                                     <?php if ( isset($_SESSION['logged_user'])) : ?> 
                                     <li class="header-menu__list-text">
@@ -220,9 +220,6 @@ if ( ! isset($_SESSION['logged_user'])) {
             <!-- ============================================================== -->
             <div class="page-breadcrumb">
                 <div class="row">
-                    <div class="col-7 align-self-center">
-                        <h3 class="page-title text-truncate text-dark font-weight-medium mb-1">На сайте добавлено:</h3>
-                    </div>
                     <div class="col-5 align-self-center">
                         
                     </div>
@@ -238,238 +235,19 @@ if ( ! isset($_SESSION['logged_user'])) {
                 <!-- *************************************************************** -->
                 <!-- Start First Cards -->
                 <!-- *************************************************************** -->
-                <div class="card-group">
-                    <div class="card border-right">
-                        <div class="card-body">
-                            <div class="d-flex d-lg-flex d-md-block align-items-center">
-                                <div>
-                                    <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-dark mb-1 font-weight-medium">236</h2>
-                                    </div>
-                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Видеоуроков</h6>
-                                </div>
-                                <div class="ml-auto mt-md-3 mt-lg-0">
-                                    <span class="opacity-7 text-muted"><i data-feather="file-plus"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border-right">
-                        <div class="card-body">
-                            <div class="d-flex d-lg-flex d-md-block align-items-center">
-                                <div>
-                                    <h2 class="text-dark mb-1 w-100 text-truncate font-weight-medium"><sup
-                                            class="set-doller"></sup>417</h2>
-                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Книг
-                                    </h6>
-                                </div>
-                                <div class="ml-auto mt-md-3 mt-lg-0">
-                                    <span class="opacity-7 text-muted"><i data-feather="file-plus"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card border-right">
-                        <div class="card-body">
-                            <div class="d-flex d-lg-flex d-md-block align-items-center">
-                                <div>
-                                    <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-dark mb-1 font-weight-medium">538</h2>
-                                        
-                                    </div>
-                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Статьи</h6>
-                                </div>
-                                <div class="ml-auto mt-md-3 mt-lg-0">
-                                    <span class="opacity-7 text-muted"><i data-feather="file-plus"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="d-flex d-lg-flex d-md-block align-items-center">
-                                <div>
-                                    <h2 class="text-dark mb-1 font-weight-medium">50</h2>
-                                    <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Языков программирования</h6>
-                                </div>
-                                <div class="ml-auto mt-md-3 mt-lg-0">
-                                    <span class="opacity-7 text-muted"><i data-feather="globe"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+               <div class="page-block"> 
+                    <img src="../../images/csharp.png" alt="СИ">
+                    <p>C# (произносится си шарп) — объектно-ориентированный язык программирования. Разработан в 1998—2001 годах группой инженеров компании Microsoft под руководством Андерса Хейлсберга и Скотта Вильтаумота[7] как язык разработки приложений для платформы Microsoft .NET Framework. Впоследствии был стандартизирован как ECMA-334 и ISO/IEC 23270.
+
+C# относится к семье языков с C-подобным синтаксисом, из них его синтаксис наиболее близок к C++ и Java. Язык имеет статическую типизацию, поддерживает полиморфизм, перегрузку операторов (в том числе операторов явного и неявного приведения типа), делегаты, атрибуты, события, свойства, обобщённые типы и методы, итераторы, анонимные функции с поддержкой замыканий, LINQ, исключения, комментарии в формате XML.
+
+Переняв многое от своих предшественников — языков C++, Delphi, Модула, Smalltalk и, в особенности, Java — С#, опираясь на практику их использования, исключает некоторые модели, зарекомендовавшие себя как проблематичные при разработке программных систем, например, C# в отличие от C++ не поддерживает множественное наследование классов (между тем допускается множественная реализация интерфейсов).</p>
                 </div>
-                <!-- Start Sales Charts Section -->
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/go.png" alt="Go">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Go</h3>
-                            <p class="intro">Перспективный и возможно в будущем станет очень популярным, единственное, он достаточно сложный</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/kotlin.png" alt="Kotlin">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Kotlin</h3>
-                            <p class="intro">Язык программирования для разработки под Android</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">C#</h3>
-                            <p class="intro">Популярный язык программирования и подойдёт тем, кто хочет работать с Windows </p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/php.png" alt="PHP">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">PHP</h3>
-                            <p class="intro">PHP – язык общего назначения, и преимущественно используется для программирования на стороне сервера</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/swift.png" alt="Swift">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Swift</h3>
-                            <p class="intro">Для разработки продуктов, совместимые с Mac OS или iO, учите Swift </p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/js.png" alt="JS">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">JavaScript</h3>
-                            <p class="intro">Это объектно-ориентированный язык, который отвечает за создание интерактивных, динамических веб-страниц</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/python.png" alt="Python">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Python</h3>
-                            <p class="intro">Это язык общего назначения, то есть используется для создания чего угодно</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">Java</h3>
-                            <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="card">
-                        <a class="card-body_a" href="#">
-                            <div class="card-body">
-                            <div class="item-inner">
-                            <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
-                            </div><!--//icon-holder-->
-                            <h3 class="title">C++</h3>
-                            <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
-                            <a class="link" href="#"><span></span></a>
-                        </div><!--//item-inner-->
-                            </div>
-                        </a>
-                        </div>
-                    </div>
                 <!-- *************************************************************** -->
             </div>
             <nav aria-label="Навигация по страницам">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">Предыдущая</a>
-                        </li>
-                        <li class="page-item active"><a class="page-link" href="cabinet.php">1</a></li>
-                        <li class="page-item">
-                        <a class="page-link" href="cabinet2.php">2</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="cabinet3.php">3</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet4.php">4</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet5.php">5</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet6.php">6</a></li>
-                        <li class="page-item"><a class="page-link" href="cabinet7.php">7</a></li>
-                        <li class="page-item">
-                        <a class="page-link" href="cabinet2.php">Следующая</a>
-                        </li>
-                    </ul>
-                </nav>
+                    
+            </nav>
             </div>
                 
             <!-- ============================================================== -->
@@ -496,24 +274,24 @@ if ( ! isset($_SESSION['logged_user'])) {
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- apps -->
     <!-- apps -->
-    <script src="dist/js/app-style-switcher.js"></script>
-    <script src="dist/js/feather.min.js"></script>
-    <script src="assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="dist/js/sidebarmenu.js"></script>
+    <script src="../../dist/js/app-style-switcher.js"></script>
+    <script src="../../dist/js/feather.min.js"></script>
+    <script src="../../assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="../../dist/js/sidebarmenu.js"></script>
     <!--Custom JavaScript -->
-    <script src="dist/js/custom.min.js"></script>
+    <script src="../../dist/js/custom.min.js"></script>
     <!--This page JavaScript -->
-    <script src="assets/extra-libs/c3/d3.min.js"></script>
-    <script src="assets/extra-libs/c3/c3.min.js"></script>
-    <script src="assets/libs/chartist/dist/chartist.min.js"></script>
-    <script src="assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
-    <script src="assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="../../assets/extra-libs/c3/d3.min.js"></script>
+    <script src="../../assets/extra-libs/c3/c3.min.js"></script>
+    <script src="../../assets/libs/chartist/dist/chartist.min.js"></script>
+    <script src="../../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
+    <script src="../../assets/extra-libs/jvector/jquery-jvectormap-2.0.2.min.js"></script>
+    <script src="../../assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="dist/js/pages/dashboards/dashboard1.min.js"></script>
 </body>
 

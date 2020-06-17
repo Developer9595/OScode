@@ -72,7 +72,7 @@
                     <div class="item item-blue col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/c-plus-plus-logo.png" alt="C++">
+                                <img class="icon-holder_img" src="/images/cpp.png" alt="C++">
                             </div><!--//icon-holder-->
                             <h3 class="title">C++</h3>
                             <p class="intro">C++ завоевал популярность среди разработчиков в мире и часто становится основой для изучения других языков</p>
@@ -82,7 +82,7 @@
                     <div class="item item-red item-2 col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/java3.png" alt="Java">
+                                <img class="icon-holder_img" src="/images/java.png" alt="Java">
                             </div><!--//icon-holder-->
                             <h3 class="title">Java</h3>
                             <p class="intro">Этот язык общего назначения широко используется для разработки мобильных приложений и игр</p>
@@ -132,7 +132,7 @@
                     <div class="item item-primary col-md-4 col-sm-6 col-xs-12">
                         <div class="item-inner">
                             <div class="icon-holder">
-                                <img class="icon-holder_img" src="/images/csharpfinal.png" alt="C#">
+                                <img class="icon-holder_img" src="/images/csharp.png" alt="C#">
                             </div><!--//icon-holder-->
                             <h3 class="title">C#</h3>
                             <p class="intro">Популярный язык программирования и подойдёт тем, кто хочет работать с Windows </p>
