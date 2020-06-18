@@ -118,15 +118,25 @@ if ( ! isset($_SESSION['logged_user'])) {
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle" class="js-logout" href="javascript:void(0)" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
                                 <img src="assets/images/dev-logo.png" alt="user" class="rounded-circle"
-                                    width="40">
-                                <span class="ml-2 d-none d-lg-inline-block"><span>Привет,</span> <span
-                                        class="text-dark">Амрджон Раджабов</span>
-                            </a>
-                            
-                        </li>
+                                    width="40"></a>
+                                    <?php if ( isset($_SESSION['logged_user'])) : ?> 
+                                    <li class="header-menu__list-text">
+                                    <div class="dropdown">
+                                    <a class="btn btn- dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <?php echo $_SESSION['logged_user']->name;?> <?php echo $_SESSION['logged_user']->surname;?>
+                                    </a>
+                                    <div class="dropdown-menu btn-username" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="index.php">Главная страница</a>
+                                        <a class="dropdown-item" id="somewhere" href="logout.php">Выход</a>
+                                    </div>
+                                    </div>
+                                    </li>
+                                    <?php else : ?>
+                                    <?php endif; ?>
+                                </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
